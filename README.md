@@ -15,14 +15,18 @@
   > | 1 Mbits/s   | 40mWieviele Teilnehmer können dabei miteinander kommunizieren? |
   > 
   > [1]
+
 - Welche Möglichkeiten des einfachen Deployments bieten sich an, wenn 
   verschiedene Services zur Darstellung von Sensordaten miteinander 
   agieren sollen?
+
 - Wie können Grenzwerte definiert werden, die zur Steuerung bzw. Notifikation herangezogen werden?
 
 ## Implementierung
 
-tba
+![Aufbau](img_aufbau.png)
+
+
 
 ## Quellen
 
