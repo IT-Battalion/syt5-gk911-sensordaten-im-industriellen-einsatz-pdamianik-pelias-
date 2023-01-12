@@ -21,14 +21,14 @@
   agieren sollen?
 
 - Wieviele Teilnehmer können dabei miteinander kommunizieren?
+  
+  > Theoretisch unendlich, praktisch ist es physisch begrenzt, da jeder Teilnehmer eine ID benötigt, und es nicht unendlich gibt.
 
 - Wie können Grenzwerte definiert werden, die zur Steuerung bzw. Notifikation herangezogen werden?
 
 ## Implementierung
 
 ![Aufbau](img_aufbau.png)
-
-
 
 ## Quellen
 
