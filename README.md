@@ -30,6 +30,8 @@
 
 ![Aufbau](img_aufbau.png)
 
+Beim RaspberryPi war bereits eine static IP Adresse konfiguriert, was wir zuerst nicht gewusst haben und davon ausgegangen sind, dass man sich via. `raspberrypi.local` verbinden kann. Das haben wir dann festgestllt, die IP Adresse ausgelesen und dann hat das verbinden via. SSH funktioniert.
+
 ## Quellen
 
 [1] "Grundlagen zum CAN Bus"; [mikrocontroller.net](https://www.mikrocontroller.net/attachment/6819/canbus.pdf); zuletzt aufgerufen am 12.01.2023
@@ -43,3 +45,5 @@
 [6] "SBC Can-01"; [joy-it.net](https://joy-it.net/files/files/Produkte/SBC-CAN01/SBC-CAN01-Anschlussplan.pdf); zuletzt aufgerufen am 12.01.2023
 
 [7] "Can Interface & Receiver"; [joy-it.net](https://joy-it.net/files/files/Produkte/SBC-CAN01/SBC-CAN01-Datenblatt.pdf); zuletzt aufgerufen am 12.01.2023
+
+[8] "Raspberry Pi: Configure Static IP before booting"; [labcrasher.com](https://labcrasher.com/2021/08/24/raspberry-pi-configure-static-ip-before-booting/); zuletzt aufgerufen am 12.01.2023
