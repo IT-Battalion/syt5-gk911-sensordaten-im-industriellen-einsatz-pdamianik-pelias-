@@ -30,6 +30,9 @@
 
 ![Aufbau](img_aufbau.png)
 
+Grundsätzlich besteht unser Aufbau aus einem Raspberry Pi Pico, der über SPI mit dem JOY-IT CAN module verbunden ist. Dieses Modul besteht aus dem MCP2515, einem "Stand-Alone CAN Controller with SPI Interface" [3]. Zwischen dem Pico und dem CAN module befindet sich ein Spannungswandler, der zusammen mit dem Raspberry Pi Pico auf dem Breadboard angebracht ist. Auf der Seite des Rasbperry Pi Picos sind neben der Spannungsversorgung von 5V und der GND die vier Pins von SPI0 (21, 22, 24, 25) mit dem CAN module verbunden, was das SPI Interface bereitstellt [2]. Auf der CAN module Seite gibt es zwei Spannungsversorgende Pins (VCC, VCC1), GND, CS (verbunden mit CSn), SCK (verbunden mit SCK), SI (verbunden mit TX), SO (verbunden mit RX) [6].
+
+Zum Testen der Verbindung haben wir auf der anderen Seite einen ähnlichen Aufbau mit einem Raspberry Pi 3B statt einem Raspberry Pi Pico aufgebaut.
 Beim RaspberryPi war bereits eine static IP Adresse konfiguriert, was wir zuerst nicht gewusst haben und davon ausgegangen sind, dass man sich via. `raspberrypi.local` verbinden kann. Das haben wir dann festgestllt, die IP Adresse ausgelesen und dann hat das verbinden via. SSH funktioniert.
 
 ## Quellen
