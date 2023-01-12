@@ -36,8 +36,6 @@ Grundsätzlich besteht unser Aufbau aus einem Raspberry Pi Pico, der über SPI m
 Zum Testen der Verbindung haben wir auf der anderen Seite einen ähnlichen Aufbau mit einem Raspberry Pi 3B statt einem Raspberry Pi Pico aufgebaut.
 Beim RaspberryPi war bereits eine static IP Adresse konfiguriert, was wir zuerst nicht gewusst haben und davon ausgegangen sind, dass man sich via. `raspberrypi.local` verbinden kann. Das haben wir dann festgestllt, die IP Adresse ausgelesen und dann hat das verbinden via. SSH funktioniert. [8]
 
-> > 
-
 ## Quellen
 
 [1] "Grundlagen zum CAN Bus"; [mikrocontroller.net](https://www.mikrocontroller.net/attachment/6819/canbus.pdf); zuletzt aufgerufen am 12.01.2023
